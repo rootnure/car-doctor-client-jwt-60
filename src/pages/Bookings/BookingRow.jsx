@@ -37,7 +37,7 @@ const BookingRow = ({ booking, handleDelete, handleBookingConfirm }) => {
                         <p className='text-green-600 font-bold'>Approved</p> :
                         (<div className='flex items-center gap-x-2'>
                             <p className='text-orange-600 font-bold'>Pending</p>
-                            <button onClick={() => handleBookingConfirm(_id)} className="btn btn-info btn-outline btn-sm">Approve</button>
+                            <button onClick={() => handleBookingConfirm(_id)} className="btn btn-info btn-outline btn-sm">Approve Now</button>
                         </div>)}
                 </th>
             </tr>
