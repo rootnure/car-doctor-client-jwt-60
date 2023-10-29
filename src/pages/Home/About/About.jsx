@@ -1,14 +1,12 @@
-import person from '../../../assets/images/about_us/person.jpg'
-import parts from '../../../assets/images/about_us/parts.jpg'
 
 
 const About = () => {
     return (
-        <div className="hero min-h-[500px] bg-base-200">
+        <div className="hero min-h-[500px] bg-base-200 my-12">
             <div className="hero-content flex-col lg:flex-row">
                 <div className="lg:w-1/2 relative">
-                    <img src={person} className="w-9/12 rounded-lg shadow-2xl" />
-                    <img src={parts} alt="" className='absolute -bottom-1/4 right-8 border-[6px] rounded-lg border-white w-5/12' />
+                    <img src="https://i.ibb.co/BTd56G6/Person.jpg" className="w-9/12 rounded-lg shadow-2xl" />
+                    <img src="https://i.ibb.co/182NDgH/Parts.jpg" alt="" className='absolute -bottom-1/4 right-8 border-[6px] rounded-lg border-white w-5/12' />
                 </div>
                 <div className='lg:w-1/2 space-y-6'>
                     <h3 className="text-xl text-orange-500 font-bold">About Us</h3>
